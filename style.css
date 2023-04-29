@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Idroid';
+    src: url(fontes/idroid.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+header > h1, p {
+    margin: 0 0 1em 0;
+}
+
+h2, h1, p {
+    margin: 1em 0 1em 0;
+    text-indent: 10px;
+}
+
+.droid {
+    font-family: 'Idroid', sans-serif;
+    margin: 0 0 5px 0;
+    color: #355C47;
+}
+
+.gradient {
+    background: linear-gradient(to right, #83E1AD, white);
+}
+
+.externo {
+    text-decoration: none;
+    color: #2FA866;
+    font-weight: bold;
+}
+
+.externo::after {
+    content: ' 🔗';
+}
+
+.externo:visited {
+    color: #a82f2f;
+}
+
+header {
+    background: linear-gradient(to top, #2FA866, #3DDC84);
+}
+
+header > h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 1em 0 0 0;
+    color: white;
+}
+
+header > p {
+    text-align: center;
+    margin: 0 0 14px 0;
+    color: white;
+}
+
+nav {
+    padding: 8px 0;
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+li > a {
+    text-decoration: none;
+    padding: 9px;
+    color: white;
+}
+
+li > a:hover {
+    text-decoration: underline;
+    background-color: #355c474e;
+}
+
+article {
+    width: 80%;
+    margin: 0 auto 1em auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 13px 8px 20px rgba(0, 0, 0, 0.197)
+}
+
+article > picture > img {
+    width: 100%;
+}
+
+article > img {
+    display: block;
+    margin: auto;
+}
+
+article > iframe {
+    width: 100%;
+    outline: 20px solid #355C47;
+    margin: 1em 0;
+}
+
+article > aside {
+    background-color:  #83E1AD;
+    border-radius: 10px;
+    padding: 0 0 12px 0;
+    margin: 1em 0;
+    box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.245);
+}
+
+aside > h3 {
+    background-color: #355C47;
+    margin: 0 0 5px 0;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    color: white;
+}
+
+aside .extra {
+    margin: 10px;
+}
+
+.extra > ul {
+    display: inline-block;
+    margin: 0 0 0 2em;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+abbr:hover {
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.extra > ul > li::before {
+    content: '✓ ';
+    font-weight: 800;
+}
+
+footer {
+    padding: 5px;
+    background-color: #2FA866;
+    color: #21382c;
+}
+
+footer > p {
+    display: inline-block;
+    margin: 7px 0 0 0;
+    vertical-align: top;
+    color: white;
+}
+footer > a > img { 
+    float: right;
+    width: 30px;
+    margin: 0 5px 0 0;
+}
