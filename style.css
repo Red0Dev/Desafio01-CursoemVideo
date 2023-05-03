@@ -213,7 +213,7 @@ footer a img {
 
 @media screen and (max-width: 480px) and (orientation: portrait) {
     li a {
-        padding: 0 3px;
+        font-size: 10px;
     }
     .extra ul {
         columns: 1;
