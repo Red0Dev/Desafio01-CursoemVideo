@@ -150,19 +150,12 @@ article img {
     margin: auto;
 }
 
-div.video {
-    background-color: var(--cor5);
-    margin: 0 -20px 30px -20px;
-    padding: 20px 20px 56.5% 20px;
-    position: relative;
-}
-
-article iframe {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
+article > iframe {
+    margin: 2em 0;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/9;
+    outline: 20px solid var(--cor4);
 }
 
 article aside {
